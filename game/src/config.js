@@ -10,7 +10,6 @@ export const WORLD_H = CITY_H * TILE;
 export const ROAD_PERIOD = 6;
 export const ROAD_WIDTH = 2;         // tiles of asphalt per road
 export const LANE_OFFSET = 20;       // px from road centre to a lane's centre
-export const WANTED_DECAY_MS = 25000; // calm streets: wanted level cools this fast
 
 export const BEACH_START = 56;       // tiles east of this are sand, then water
 
@@ -64,3 +63,4 @@ export const SHIRT_COLORS = [
 
 export const VIEW_W = 1280;
 export const VIEW_H = 720;
+export const WANTED_DECAY_MS = 25000; // calm streets: wanted level cools this fast
